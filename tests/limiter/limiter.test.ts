@@ -2,8 +2,8 @@ import InMemoryUser from '../../src/users/in_mem_user';
 import InMemoryConfig from '../../src/cloud_config/in_mem_config';
 import InMemoryStorage from '../../src/storage/in_mem_storage';
 import RateLimiter from '../../src/limiter/limiter';
-import RedirectResponse from '../../src/responce/redirect_res';
-import DenyResponse from '../../src/responce/deny_res';
+import RedirectResponse from '../../src/response/redirect_res';
+import DenyResponse from '../../src/response/deny_res';
 
 const user = new InMemoryUser();
 const config = new InMemoryConfig();

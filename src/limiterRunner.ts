@@ -3,9 +3,9 @@ import RateLimiter from './limiter/limiter';
 import InMemoryUser from './users/in_mem_user';
 import InMemoryConfig from './cloud_config/in_mem_config';
 import InMemoryStorage from './storage/in_mem_storage';
-import RedirectResponse from './responce/redirect_res';
-import DenyResponse from './responce/deny_res';
-import { Response } from './responce/Response';
+import RedirectResponse from './response/redirect_res';
+import DenyResponse from './response/deny_res';
+import { Response } from './response/Response';
 
 class LimiterRunner {
   private server: Server;

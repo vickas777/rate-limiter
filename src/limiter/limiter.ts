@@ -3,9 +3,9 @@ import { URL } from 'url';
 import { StorageDAO } from '../storage/Storage';
 import { User, UserDAO } from '../users/User';
 import { ConfigDAO } from '../cloud_config/Config';
-import DenyResponse from '../responce/deny_res';
-import RedirectResponse from '../responce/redirect_res';
-import { Response } from '../responce/Response';
+import DenyResponse from '../response/deny_res';
+import RedirectResponse from '../response/redirect_res';
+import { Response } from '../response/Response';
 
 const DEFAULT_RATE_LIMIT = 10;
 const DEFAULT_PERIOD_MIN = 60;
