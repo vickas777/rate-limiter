@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript/base", "plugin:jest/all"],
+  "env": {
+    "node": true,
+    "jest/globals": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
